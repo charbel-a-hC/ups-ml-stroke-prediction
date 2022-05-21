@@ -18,8 +18,7 @@ This dataset can be obtained from Kaggle and can be found in this [link](https:/
 *Note: "Unknown" in smoking_status means that the information is unavailable for this patient
 
 ## Repo Structure
-- `dcerejio-players-scores`: full dataset downloaded from data.world
-- `scripts`: contains formating script for py-files
+- `dataset/healthcare-dataset-stroke-data`: full dataset downloaded from kaggle
 - `Makefile`: Makefile where you can create a virtual env or create a docker container to run the notebook
 - `Dockerfile`: Dockerfile to build a docker image with GPU support (tested on NVIDIA TITAN RTX with Ubuntu 18.04). More information on how to download docker can be found [here](https://docs.docker.com/get-docker/). nvidia-docker installation can also be found [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
 - `StrokePrediction.ipynb`: Notebook containing all the code

@@ -82,4 +82,4 @@ You can then open a jupyter notebook similarly:
 jupyter notebook
 ```
 ### Google Colaboratory
-You can open the notebook in Google Colab here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+You can open the notebook in Google Colab here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/charbel-a-hC/ups-ml-stroke-prediction/blob/main/StrokePrediction.ipynb)

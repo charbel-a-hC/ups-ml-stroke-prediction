@@ -3,11 +3,9 @@ help:
 	@echo "Please use 'make <target>' where <target> is one of"
 	@echo ""
 	@echo "  env		prepare environment and install required dependencies"
-	@echo "  clean		remove all temp files along with docker images and docker-compose networks"
 	@echo "  format	reformat code"
 	@echo ""
 	@echo "Check the Makefile to know exactly what each target is doing."
-
 
 
 .PHONY: env
@@ -26,10 +24,6 @@ env-docker:
 	poetry --version
 	poetry install
 	poetry show
-
-.PHONY: format
-format:
-	poetry run bash scripts/format.sh
 
 .PHONY: clean
 clean: # Remove Python file artifacts

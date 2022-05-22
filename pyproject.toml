@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ups-ml-stroke-prediction"
 version = "0.1.0"
-description = ""
+description = "Stroke predition in patients using kaggle dataset"
 authors = ["Charbel Abi Hana <charbel-a-h@outlook.com>"]
 
 [tool.poetry.dependencies]
